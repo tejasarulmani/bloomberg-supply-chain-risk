@@ -1,0 +1,9 @@
+# Proprietary Bloomberg Raw Data
+bloomberg_data/raw_supplier_weights.csv
+bloomberg_data/raw_supplier_risk_factors.csv
+
+# Python environments and cache
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
