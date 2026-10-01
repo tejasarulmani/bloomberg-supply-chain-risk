@@ -1,6 +1,10 @@
 # Proprietary Bloomberg Raw Data
-bloomberg_data/raw_supplier_weights.csv
-bloomberg_data/raw_supplier_risk_factors.csv
+data/raw_supplier_weights.csv
+data/raw_supplier_risk_factors.csv
+*.xlsx
+
+# Real Apple Visualizations
+outputs/apple_real_*.png
 
 # Python environments and cache
 __pycache__/
