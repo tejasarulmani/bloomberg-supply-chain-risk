@@ -110,9 +110,9 @@ def generate_visualizations(df, R, E, R_cols, is_synthetic):
     print(f"-> Visualizations successfully saved to the 'outputs/' directory.")
 
 if __name__ == "__main__":
-    # FLIP TO False TO RUN REAL APPLE DATA FOR YOUR PDF REPORT
-    # FLIP TO True BEFORE PUSHING TO GITHUB
-    USE_SYNTHETIC = False
+    # FLIP TO False TO RUN REAL APPLE DATA
+    # FLIP TO True TO RUN SYNTHETIC DATA FOR GITHUB
+    USE_SYNTHETIC = True
     
     if USE_SYNTHETIC:
         print("=== EXECUTION MODE: SYNTHETIC DATA ===")
